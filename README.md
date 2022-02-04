@@ -7,6 +7,7 @@ A fixed header, background-image and some h tags doing an introduction to the so
 
 ![youTube1](https://user-images.githubusercontent.com/94570140/152577577-15be71a6-094b-437f-8a34-f473509a0fb6.png)
 
+
 ### Main body 
 Main body with a free trial and download button, and two software displays, laptop and mobile phone.
 
@@ -15,6 +16,7 @@ Main body with a free trial and download button, and two software displays, lapt
 ![youTube3](https://user-images.githubusercontent.com/94570140/152578211-053ab64a-9cdc-41c4-bad5-03aa241582b5.png)
 
 ![youTube4](https://user-images.githubusercontent.com/94570140/152578236-e75a346a-4509-4017-9317-ff9f85499884.png)
+
 
 ### Footer
 Simple footer using social media svgs and CSS hover animations with links related to "Company", "Get Help", "Useful Links", "Communities" and "Follow Us".
