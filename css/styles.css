@@ -1,0 +1,296 @@
+body {
+  overflow-x: hidden; /* Used to Hide horizontal scrollbar */
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* Header */
+
+.header {
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: 3rem;
+  position: fixed;
+  z-index: 1;
+}
+
+.header-lines {
+  color: #fff;
+  font-family: "Noto Sans Display", sans-serif;
+  font-style: none;
+  text-decoration: none;
+}
+
+.header-list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  line-height: 50px;
+}
+
+.header-item {
+  margin-left: 2rem;
+  font-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-item:hover {
+  background-color: rgb(24, 24, 24);
+  transition: 0.5s ease;
+}
+
+/* Container 1 */
+
+.container1 {
+  background-image: url(../images/Kanye_West_Cropped.jpg);
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.kanye_stuff {
+  position: absolute;
+}
+
+.heading1 {
+  color: #fff;
+  margin-top: 0;
+
+  font-size: 5rem;
+  position: relative;
+  top: 5.625rem;
+  left: 40%;
+  font-family: "Epilogue", sans-serif;
+}
+
+.heading3 {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 0;
+  position: relative;
+  top: 11.875rem;
+  left: 6%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.p1 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 0;
+  top: 13.125rem;
+  left: 2%;
+  font-family: "PT Sans Narrow", sans-serif;
+  position: relative;
+  width: 55%;
+}
+
+/* Container 2 */
+
+.container2 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(51, 51, 51);
+  margin-top: 0;
+}
+
+.music_note {
+  width: 3rem;
+  float: left;
+}
+
+.p_music {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Epilogue", sans-serif;
+  margin-left: 4rem;
+}
+
+#music-h3 {
+  margin-left: 40%;
+}
+
+.music-h3-2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Epilogue", sans-serif;
+}
+
+.p_music2 {
+  color: #fff;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2rem;
+  margin: 2.5rem 6rem;
+}
+
+.p_music2 span {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Noto Sans Display", sans-serif;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.2);
+}
+
+.signup {
+  text-align: center;
+  border-radius: 50px;
+  padding: 26px;
+  color: white;
+  background: rgb(218, 164, 92);
+  transition: all 0.2s ease-out 0s;
+}
+
+.laptop_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/* Container 3 */
+
+.container3 {
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: auto;
+}
+
+.container3_div {
+  margin: 7rem;
+  margin: 3rem 7rem 7rem 7rem;
+}
+
+.phone_app {
+  width: 30rem;
+  float: left;
+}
+
+.apple_header {
+  font-size: 2.5rem;
+  /* font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif; */
+  font-family: "Epilogue", sans-serif;
+  top: 60%;
+  display: inline-block;
+  margin-top: 3rem;
+  width: 30rem;
+
+  color: #1d1d1f;
+}
+
+.microsoft_icon {
+  width: 15rem;
+}
+
+.app_store {
+  width: 15.3rem;
+}
+
+/* Footer */
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: rgb(51, 51, 51);
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(218, 164, 92);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+h4 {
+  font-family: "Epilogue", sans-serif;
+}
+
+li {
+  font-family: "Epilogue", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
